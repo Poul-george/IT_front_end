@@ -62,6 +62,11 @@ session_start();
             </div>
           </div>
         </div>
+      <?php }elseif ($_SESSION["array"]["answer2"] === "yes") {?>
+        <div class="answer_div">
+          <h2 class="guide_h2">問題解決能力</h2>   
+          <p class="message">あなたは問題解決能力が備わっていると考えられます。</p>
+        </div>
       <?php }?>
     </div>
     
@@ -93,8 +98,12 @@ session_start();
                 <iframe width="560" height="300" src="https://www.youtube.com/embed/-SMVyQAu8XM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
             </div>
-
           </div>
+        </div>
+      <?php }elseif ($_SESSION["array"]["answer3"] === "yes") {?>
+        <div class="answer_div">
+          <h2 class="guide_h2">雑談力</h2>   
+            <p class="message">あなたは雑談力が備わっていると考えられます。</p>
         </div>
       <?php }?>
 
@@ -126,6 +135,11 @@ session_start();
               </div>
             </div>
           </div>
+        </div>
+      <?php }elseif ($_SESSION["array"]["answer5"] === "no") {?>
+        <div class="answer_div">
+          <h2 class="guide_h2">伝える力</h2>   
+            <p class="message">あなたは伝える力が備わっていると考えられます。</p>
         </div>
       <?php }?>
     </div>
@@ -163,6 +177,11 @@ session_start();
               </div>
             </div>
           </div>
+        </div>
+      <?php }elseif ($_SESSION["array"]["answer6"] === "yes") {?>
+        <div class="answer_div">
+          <h2 class="guide_h2">HTML/CSS コーディング力</h2>   
+            <p class="message">あなたはコーディング力が備わっていると考えられます。</p>
         </div>
       <?php }?>
 
@@ -247,6 +266,11 @@ session_start();
             </div>
           </div>
         </div>
+      <?php } elseif($_SESSION["array"]["answer7"] === "4" || $_SESSION["array"]["answer7"] === "5") {?>
+        <div class="answer_div">
+          <h2 class="guide_h2">JavaScriptの知識</h2>   
+            <p class="message">あなたはコJavaScriptの知識が備わっていると考えられます。</p>
+        </div>
       <?php }?>
 
       <!-- No.8 -->
@@ -326,6 +350,11 @@ session_start();
               </div>
             </div>
           </div>
+        </div>
+      <?php } elseif($_SESSION["array"]["answer8"] === "4" || $_SESSION["array"]["answer8"] === "5") {?>
+        <div class="answer_div">
+          <h2 class="guide_h2">jQueryの知識</h2>   
+            <p class="message">あなたはコjQueryの知識が備わっていると考えられます。</p>
         </div>
       <?php }?>
 
@@ -407,6 +436,11 @@ session_start();
             </div>
           </div>
         </div>
+      <?php } elseif($_SESSION["array"]["answer9"] === "4" || $_SESSION["array"]["answer9"] === "5") {?>
+        <div class="answer_div">
+          <h2 class="guide_h2">Vue.jsの知識</h2>   
+            <p class="message">あなたはコVue.jsの知識が備わっていると考えられます。</p>
+        </div>
       <?php }?>
 
       <!-- No.10 -->
@@ -474,6 +508,11 @@ session_start();
             </div>
           </div>
         </div>
+      <?php } elseif($_SESSION["array"]["answer10"] === "4" || $_SESSION["array"]["answer10"] === "5") {?>
+        <div class="answer_div">
+          <h2 class="guide_h2">React.jsの知識</h2>   
+            <p class="message">あなたはReact.jsの知識が備わっていると考えられます。</p>
+        </div>
       <?php }?>
 
       <!-- No.11 -->
@@ -491,8 +530,12 @@ session_start();
                 <table border="0" cellpadding="0" cellspacing="0"><tr><td><div style="border:1px solid #95a5a6;border-radius:.75rem;background-color:#FFFFFF;height: 259px;width:550px;margin:0px;padding:5px;text-align:center;overflow:hidden;"><table><tr><td style="width:240px"><a href="https://hb.afl.rakuten.co.jp/ichiba/1eefc256.f5506d47.1eefc257.d7548780/?pc=https%3A%2F%2Fproduct.rakuten.co.jp%2Fproduct%2F-%2F0dbeadda0520864c79d548c53438ec8a%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjAsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjoxLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"  ><img src="https://hbb.afl.rakuten.co.jp/hgb/1eefc254.addff69e.1eefc255.3a98a9ec/?me_id=1213310&item_id=19075865&pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Fbook%2Fcabinet%2F6930%2F9784774196930.jpg%3F_ex%3D240x240&s=240x240&t=picttext" border="0" style="margin:2px" alt="" title=""></a></td><td style="vertical-align:top;width:248px;"><p style="font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px;word-wrap:break-word"><a href="https://hb.afl.rakuten.co.jp/ichiba/1eefc256.f5506d47.1eefc257.d7548780/?pc=https%3A%2F%2Fproduct.rakuten.co.jp%2Fproduct%2F-%2F0dbeadda0520864c79d548c53438ec8a%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjAsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjoxLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"  >1時間でわかるSEO対策 （スピードマスター） [ 遠藤聡 ]</a></p><div style="margin:10px;"><a href="https://hb.afl.rakuten.co.jp/ichiba/1eefc256.f5506d47.1eefc257.d7548780/?pc=https%3A%2F%2Fproduct.rakuten.co.jp%2Fproduct%2F-%2F0dbeadda0520864c79d548c53438ec8a%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjAsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjoxLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"  ><img src="https://static.affiliate.rakuten.co.jp/makelink/rl.svg" style="float:left;max-height:27px;width:auto;margin-top:0"></a><a href="https://hb.afl.rakuten.co.jp/ichiba/1eefc256.f5506d47.1eefc257.d7548780/?pc=https%3A%2F%2Fproduct.rakuten.co.jp%2Fproduct%2F-%2F0dbeadda0520864c79d548c53438ec8a%2F%3Fscid%3Daf_pc_bbtn&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjAsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjoxLCJhbXAiOmZhbHNlfQ==" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"  ><div style="float:right;width:41%;height:27px;background-color:#bf0000;color:#fff!important;font-size:12px;font-weight:500;line-height:27px;margin-left:1px;padding: 0 12px;border-radius:16px;cursor:pointer;text-align:center;">楽天で購入</div></a></div></td></tr></table></div><br><p style="color:#000000;font-size:12px;line-height:1.4em;margin:5px;word-wrap:break-word"></p></td></tr></table>
               </div>
             </div>
-
           </div>
+        </div>
+      <?php }elseif ($_SESSION["array"]["answer11"] === "yes") {?>
+        <div class="answer_div">
+          <h2 class="guide_h2">SEOの知識</h2>   
+            <p class="message">あなたはSEOの知識が備わっていると考えられます。</p>
         </div>
       <?php }?>
 
@@ -518,6 +561,11 @@ session_start();
               </div>
             </div>
           </div>
+        </div>
+      <?php }elseif ($_SESSION["array"]["answer12"] === "yes") {?>
+        <div class="answer_div">
+          <h2 class="guide_h2">UI/UXの知識</h2>   
+            <p class="message">あなたはUI/UXの知識が備わっていると考えられます。</p>
         </div>
       <?php }?>
 
@@ -555,6 +603,11 @@ session_start();
             </div>
           </div>
         </div>
+      <?php }elseif ($_SESSION["array"]["answer13"] === "yes") {?>
+        <div class="answer_div">
+          <h2 class="guide_h2">デザインフレームワークの知識</h2>   
+            <p class="message">あなたはデザインフレームワークの知識が備わっていると考えられます。</p>
+        </div>
       <?php }?>
 
       <!-- No.14 -->
@@ -590,6 +643,11 @@ session_start();
               </div>
             </div>
           </div>
+        </div>
+      <?php }elseif ($_SESSION["array"]["answer14"] === "yes") {?>
+        <div class="answer_div">
+          <h2 class="guide_h2">CMSの知識</h2>   
+            <p class="message">あなたはCMSの知識が備わっていると考えられます。</p>
         </div>
       <?php }?>
     </div>
